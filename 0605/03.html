@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // 조건문
+        // date객체를 선언한다. (참조변수)
+        let date = new Date();
+        // 요소를 추출한다.
+        let year = date.getFullYear();
+        let month = date.getMonth() + 1;
+        let day = date.getDate();
+        let hours = date.getHours();
+        let minutes = date.getMinutes();
+        let seconds = date.getSeconds();
+        let dateStr = year + "년" + month + "월" + day + "일" ;
+        let time = hours + ":" + minutes + ":" + seconds ;
+
+        alert(dateStr + "\n" + time);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

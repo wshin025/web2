@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 실습문제
+    1.출생년도를 입력받아서 나이를 구한다.
+    2. 조건문을 사용해서 나이가 19세 이하이면 청소년, 20세 이상이면 성인으로 알림대화상자에출력한다. 
+    -->
+    <script>
+        let date = new Date();
+        let biryear = parseInt(prompt("출생년도를 입력하시오."));
+        let nowyear = date.getFullYear();
+        let age = nowyear-biryear; 
+        if (age <= 20)
+        {result = "청소년"}
+        else(age > 20)
+       { result = "성인"}
+       
+       alert ("당신의 나이는" + age + "세이므로" +result +"입니다.");
+       
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
