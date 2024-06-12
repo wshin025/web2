@@ -1,0 +1,48 @@
+.title
+{
+    width : 1440px; 
+    height:128px;
+    background-color: rgba(163, 255, 148, 0.75);
+}
+#wrap{
+    margin: 0 auto;
+    width: 1200px;
+    /* border: 1px solid red; */
+    padding-top: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.article{
+    float: left;
+    margin-left: 10px;
+}
+.image01 { 
+    width: 385px;
+    height: 250px;
+    border-radius: 20px;
+}
+.image02 {
+    width: 385px;
+    height: 250px;
+    border-radius: 20px;
+}
+.image03 {
+    width: 385px;
+    height: 250px;
+    border-radius: 20px;
+}
+.image04 {
+    width: 385px;
+    height: 250px;
+    border-radius: 20px;
+}
+.image05 {
+    width: 385px;
+    height: 250px;
+    border-radius: 20px;
+}
+.image06 {
+    width: 385px;
+    height: 250px;
+    border-radius: 20px;
+}

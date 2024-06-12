@@ -38,45 +38,43 @@
     text-align: left;
     color: #000;
 }
+article{
+    float: left;
+    margin-left: 10px;
+}
 .image {
     object-fit: cover;
 }
-.image-1 { 
-    width: 460px;
-    height: 455px;
-    position: absolute;
-    left: 979px;
-    top: 111px;
+.image01 { 
+    width: 385px;
+    height: 250px;
+    border-radius: 20px;
 }
-.image-2 {
-    width: 450px;
-    height: 457px;
-    position: absolute;
-    left: 60px;
-    top: 566px;
+.image02 {
+    width: 385px;
+    height: 250px;
+    border-radius: 20px;
 }
-.image-3 {
+.image03 {
     width: 460px;
     height: 457px;
     position: absolute;
     left: 979px;
     top: 566px;
 }
-.image-4 {
-    width: 444px;
-    height: 455px;
-    position: absolute;
-    left: 522px;
-    top: 566px;
+.image04 {
+    width: 385px;
+    height: 250px;
+    border-radius: 20px;
 }
-.image-5 {
+.image05 {
     width: 449px;
     height: 457px;
     position: absolute;
     left: 60px;
     top: 111px;
 }
-.image-6 {
+.image06 {
     width: 444px;
     height: 458px;
     position: absolute;
