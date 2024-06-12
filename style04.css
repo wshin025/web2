@@ -1,0 +1,26 @@
+.title
+{
+    width : 1440px; 
+    height:128px;
+    background-color: rgba(163, 255, 148, 0.75);
+}
+.image
+{
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    left: 400px;
+    top: 300px;
+    object-fit: cover;
+}
+.text-block
+{
+     font-family: 'GmarketSansMedium';
+        font-weight: normal;
+        font-style: bold;
+}
+.map-title
+{
+    position: absolute;
+    font-size: 38px;
+}
