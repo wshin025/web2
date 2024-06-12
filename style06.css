@@ -12,6 +12,14 @@
     background-color: rgba(163, 255, 148, 0.75);
 }
 
+#wrap{
+    margin: 0 auto;
+    width: 1200px;
+    /* border: 1px solid red; */
+    padding-top: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
 
 article{
     float: left;
