@@ -1,0 +1,54 @@
+.container {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    overflow: hidden;
+    background: rgba(163, 255, 148, 0.75);
+}
+.inner-background {
+    box-sizing: border-box;
+    width: 1440px;
+    height: 895px;
+    position: absolute;
+    left: -14px;
+    top: 141px;
+    background: #ee0909;
+}
+.image {
+
+    width: 691px;
+    height: 873px;
+    position: absolute;
+    left: 694px;
+    top: 141px;
+    object-fit: cover;
+}
+.text-block {
+    width: 378px;
+    height: 257px;
+    position: absolute;
+    left: 61px;
+    top: 469px;
+    font-size: 32px;
+    text-align: left;
+    color: #000;
+}
+.title {
+    width: 117px;
+    height: 42px;
+    background-color: aqua;
+    position: absolute;
+    left: 61px;
+    top: 55px;
+    font-size: 36px;
+    text-align: left;
+    color: #000;
+}
+.map-title {
+    position: absolute;
+    left: 25px;
+    top: 816px;
+    font-size: 38px;
+    text-align: left;
+    color: #000;
+}

@@ -1,0 +1,39 @@
+.container {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+}
+.title {
+    position: absolute;
+    left: 198px;
+    top: 20px;
+    font-size: 36px;
+    text-align: left;
+    color: #000;
+}
+.subtitle {
+    width: 117px;
+    height: 42px;
+    position: absolute;
+    left: 65px;
+    top: 39px;
+    font-size: 36px;
+    text-align: left;
+    color: #000;
+}
+.container img {
+    width: 317px;
+    height: 199px;
+    position: absolute;
+    object-fit: cover;
+}
+.container img:nth-child(1) {
+    left: 60px;
+    top: 370px;
+}
+.container img:nth-child(2) {
+    left: 52px;
+    top: 591px;
+}
