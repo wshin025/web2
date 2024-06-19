@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+        function intervalnow()
+        {
+            let now = new Date();
+            obj.innerHTML = now.toString();
+        }
+        let obj ;
+        function makeclock()
+        {
+            obj=document.getElementById("clock")
+            setInterval(intervalnow,1000);
+            // 또는 익명함수로 넣어서도 가능.
+        }
+    </script>
+</head>
+<body onload="makeclock()">
+    <h1 id="clock"></h1>
+</body>
+</html>
