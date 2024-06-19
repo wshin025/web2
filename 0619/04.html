@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function divgradient()
+        {
+            let result="";
+            for(let i=0; i<256;i++)
+            {
+                result +="<div></div>"
+            }
+            document.body.innerHTML = result;
+            let divs = document.querySelectorAll("div");
+            // css style 적용(div의 높이, 배경색 설정)
+            for(let i= 0; i < divs.length; i++)
+            {
+                divs[i].style.height = "3px";
+                divs[i].style.background = "rgb( "+ i +","+ i +","+ i +" )";
+            }
+
+        }
+    </script>
+</head>
+<body onload="divgradient()">
+    
+</body>
+</html>
